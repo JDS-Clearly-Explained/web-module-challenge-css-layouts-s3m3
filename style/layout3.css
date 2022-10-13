@@ -1,14 +1,11 @@
 header {
     background-color: #6dbdff;
     color: #ffffff;
-    padding: 15px;
+    padding: 10px;
+    text-align: center;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 2%;
-}
-
-nav {
-    margin-left: 20px;
 }
 
 footer {
@@ -36,13 +33,13 @@ footer {
 .gallery {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    padding: 20px;
 }
 
-.picture p {
-    text-align: center;
+.picture {
+    margin: 1%;
 }
+
+
 
 button {
     background-color: #144e9a;
@@ -52,6 +49,8 @@ button {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     border: black solid 1px;
+    border-radius: 5px;
+    margin: 2%;
 }
 
 button:hover {
