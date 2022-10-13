@@ -13,24 +13,26 @@ nav {
 
 footer {
     background-color: #6dbdff;
-    margin-top: 2%;
     color: #ffffff;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.space {
+    margin-bottom: 2%;
+}
+
 .topsection {
     display: flex;
     flex-direction: row;
-    justify-content: center;
     margin: 2%;
 }
 
 .description {
-    width: 50%;
-    margin: 0 2%;
+    font-size: large;
+    margin: 5%;
 }
 
 .gallery {
@@ -52,6 +54,7 @@ button {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     border: black solid 1px;
+    margin: -5px;
 }
 
 button:hover {
